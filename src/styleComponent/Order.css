@@ -1,0 +1,27 @@
+.order{
+    border: 2px solid #efefef;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 2rem auto;
+}
+.order h1{
+    margin: 2rem;
+}
+.order h3{
+    margin: 1rem;
+}
+.order button{
+   padding: 1rem 2.4rem;
+   border: 1px solid #14a714;
+   border-radius: 0.3rem;
+   background: transparent;
+   margin-top: 2rem;
+   cursor: pointer;
+}
+
+.order button:hover{
+    background-color: #14a714;
+    color: #fff;
+}

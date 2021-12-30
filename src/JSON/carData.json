@@ -1,0 +1,44 @@
+[
+    {
+        "carName":"Maruti Swift",
+        "carLocation":"1.8 km Somalwada square",
+        "seater":" Manual .Diesel .5 Seats",
+        "text":"5.0 (53) ·92,304 kms driven",
+        "src":"https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/d7ba329c386c0331e896bae1e3285ef7d3f23972.png?1584526043",
+        "price":"847"
+    },
+    
+    {
+        "carName":"Tata Nexon",
+        "carLocation":"1.8 km Somalwada square",
+        "seater":" Manual .Diesel .5 Seats",
+        "text":"4.9 (39) · 99,104 kms driven",
+        "src":"https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/a8c9309fefc057459e0955d0a5f54340b7cd7bcb.png?1584524824",
+        "price":"1,324"
+    },
+    {
+        "carName":"Hyundai i20",
+        "carLocation":"1.8 km Somalwada square",
+        "seater":" Automatic .Diesel .5 Seats",
+        "text":"5 (66) · 84,405 kms driven",
+        "src":"https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/b181fa4f49687de9d7e7b7a23f736d202cf2bbff.png?1584514541",
+        "price":"909"  
+    },
+    {
+        "carName":"Ford Ecosport",
+        "carLocation":"1.8 km Somalwada square",
+        "seater":"  Manual .Diesel .5 Seats",
+        "text":"4.8 (29) ·97,761 kms driven",
+        "src":"https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/e47541c407f8ee906e9fa81c43c732ada5614617.png?1584526352",
+        "price":"1,233" 
+    },
+    {
+        "carName":"Maruti Swift AT",
+        "carLocation":"1.8 km Somalwada square",
+        "seater":" Manual .Diesel .5 Seats",
+        "text":"5.0 (69) · 92,304 kms driven",
+        "src":"https://s3-ap-southeast-1.amazonaws.com/zoomcar/photographs/original/b181fa4f49687de9d7e7b7a23f736d202cf2bbff.png?1584514541",
+        "price":"954"
+    }
+
+]

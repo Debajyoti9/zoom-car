@@ -1,0 +1,57 @@
+
+ [
+    {
+        "name": "Delhi",
+        "location": "India"
+    },
+    {
+        "name": "Delhi Railway Station",
+        "location": "Sirsapur Road , Sector 18, Rohini,Delhi,India"
+    },
+    {
+        "name": "Indira Gandhi International Airport",
+        "location": "New Delhi India"
+    },
+    {
+        "name": "Delhi Airport Parking lot",
+        "location": "New Delhi India"
+    },
+    {
+        "name": "Bangalore",
+        "location": "karnataka,India"
+    },
+    {
+        "name":"Bangalore International Airport",
+        "location":"Kempegowda Int'l Airport Rd, Hunachur, Karnataka, India"
+    },
+    {
+        "name":"Bangalore Railway Station Back Gate",
+        "location":"M.G. Railway Colony, Majestic, Bengaluru, Karnataka, India"
+    },
+    {
+        "name":"Bangalore Cant",
+        "location":"Cantonment Railway Station Road, Cantonment Railway Quarters, Vasanth Nagar, Bengaluru, Karnataka, India"
+    },
+    {
+        "name":"Mumbai",
+        "location":"Maharashtra, India"
+    },
+    {
+        "name":"Mumbai Central Railway Station Building",
+        "location":"Mumbai Central, Mumbai, Maharashtra, India"
+    },
+    {
+        "name":"Mumbai Central",
+        "location":"Mumbai,Maharashtra India"
+    },
+    {
+        "name":"Mumbai Tiffin",
+        "location":"17th Cross Road, opposite Water Tank, Vanganahalli, 1st Sector, HSR Layout, Bengaluru, Karnataka, India"
+    },
+    {
+        "name":"Mumbai - Pune Expressway",
+        "location":"Yamuna Kunj, Sector-10, New Panvel East, Panvel, Navi Mumbai, Maharashtra, India"
+    }
+]
+
+

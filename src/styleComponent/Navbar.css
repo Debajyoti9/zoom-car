@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 5rem; 
+}
+
+.header_logo{
+   display: flex; 
+   align-items: center;
+}
+
+.header_logo>i{
+  font-size: 1.2rem;
+  /* margin-top: 2.4rem; */
+  margin-left: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header_logo>img{
+    height: 140px;
+}
+nav{
+    flex: 0.5;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    list-style-type: none;
+    margin: 0 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

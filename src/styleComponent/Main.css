@@ -1,0 +1,124 @@
+.layout-one {
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.subPage{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+    z-index: 999;
+    overflow: hidden;
+    -webkit-animation: 0.3s fadeInUp ease;
+    animation: 0.3s fadeInUp ease;
+}
+.subPage .header i{
+    font-size: 1.4rem;
+    margin: 2rem;
+    color: #9e9e9e;
+    cursor: pointer;
+}
+@keyframes fadeInUp{
+    0%{
+       opacity: 0;
+       -webkit-transform: translate3d(0, 50px, 0);
+       transform: translate3d(0, 50px, 0);
+    }
+    100%{
+       opacity: 1;
+      -webkit-transform: none;
+       transform: none;
+    }
+}
+
+.layout-one .main{
+    flex: 1;
+}
+
+.main_component_adress_picker{
+    padding: 16px;
+    color: #1f1f1f;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_component_adress_picker_box_border{
+    border: solid 1px #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.main_component_adress_picker_box_border .field_wrap{
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.main_component_adress_picker_box_border .field_wrap .field.field_address{
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.main_component_adress_picker_box_border .field_wrap .field.field_address .field_adress_icon{
+    min-width: 8px;
+    min-height: 8px;
+    border-radius: 50%;
+    background-color: #10a310;
+    box-shadow: 0 0 8px 8px #e6ffea;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.main_component_adress_picker_box_border .field_wrap .field input.input-text{
+    flex: 1;
+    border: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
+    color: #1f1f1f;
+    padding: 1rem;
+    padding-right:60%;
+    outline: none;
+}
+
+.location_option{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    color: #1f1f1f;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.location_option i{
+    margin-right: 16px;
+}
+
+.location_search_results{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    color: #1f1f1f;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: #fff;
+    /* margin-top: -4rem; */
+}
+
+.location_search_results div{
+    padding-left: 16px;
+}

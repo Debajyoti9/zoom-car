@@ -1,0 +1,107 @@
+.pageSearch_right{
+    flex: 0 1 76%;
+    max-width: 86%;
+}
+.pageSearch_right>div{
+    margin-left: 16px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.pageSearch_right .car_list{
+    height: 100vh;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+.pageSearch_right .car_list .component_car_item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.page_search_right .car_list .item {
+    background: #fff;
+    margin: 8px 0;
+}
+.page_search_right .car_list .component_car_item{
+    display: flex;
+    justify-content: space-between;
+}
+.page_search_right .car_list .component_car_item .info {
+    padding: 16px;
+    padding-bottom: 0;
+    padding-right: 0;
+    position: relative;
+    display: flex;
+}
+.component_car_item .info .desc {
+    flex: 1;
+    min-width: 0;
+}
+
+.component_car_item .car_item_extras {
+    color: #666;
+    padding: 4px 0;
+    border-top: 1px solid #f5f5f5;
+    margin-top: 8px;
+}
+
+.component_car_item .car-item-extras .car_item_message {
+    display: flex;
+    align-items: center;
+}
+
+.component_car_item .car-item-extras .car_item_message .text {
+    font-size: 11px;
+}
+
+.component_car_item .info .img {
+    margin-top: -10px;
+}
+
+
+.component_car_item .price_book_cart{
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 16px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.component_car_item .price_book_cart .price_bar{
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+.ai-c {
+    align-items: center;
+}
+.d-f {
+    display: flex;
+}
+.ta-c {
+    text-align: center;
+}
+
+.component_car_item .price_book_cart .book button{
+    border-radius: 1px;
+    background-color: white;
+    border: none;
+    color: #1f1f1f;
+    border: 1px solid #10a310;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.component_car_item .price_book_cart .book button:hover{
+    background-color: #10a310;
+    color: #f5f5f5;
+}
